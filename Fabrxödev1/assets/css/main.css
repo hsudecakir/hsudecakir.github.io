@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url(reset.css);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header__container {
+  background-color: #FFC9BA;
+  width: 100%;
+}
+
+.header {
+  width: 1110px;
+  height: 80px;
+  margin-inline: auto;
+  display: flex
+}
+
+.header__logo {
+  width: 92px;
+  margin-block: auto;
+}
+
+.search__container {
+  display: flex;
+  width: 327px;
+  height: 48px;
+  margin-left: 299px;
+  margin-right: 232px;
+  margin-block: auto;
+
+  i {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: 14px;
+    margin-block: auto;
+    color: #2C3E50;
+  }
+
+  border-bottom: 1.04px solid black;
+}
+
+.search__input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+
+  &::placeholder {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 16px;
+  }
+}
+
+.header__icons {
+  margin-block: auto;
+  height: 32px;
+  position: relative;
+
+  img {
+    &:first-child {
+      width: 32px;
+      margin-right: 27.5px;
+    }
+
+    &:nth-child(2) {
+      width: 25.11px;
+      height: 27.33px;
+      margin-right: 27.5px;
+      margin-block: 2px;
+    }
+
+    &:nth-child(3) {
+      width: 18px;
+      position: absolute;
+      right: 55px;
+      top: -6px;
+
+    }
+
+    &:last-child {
+      margin-right: 0px;
+      height: 32px;
+      width: 32px;
+      margin-block: auto;
+    }
+  }
+}
+
+.sofa {
+  background-color: #FFC9BA;
+  width: 100%;
+  height: 592px;
+}
+
+.sofa__container {
+  width: 1124px;
+  margin-inline: auto;
+  padding-top: 103px;
+  display: flex;
+}
+
+.sofa__text {
+  margin-right: 24px;
+
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #212121;
+    padding-bottom: 16px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #212121;
+  }
+}
+
+.sofa__button {
+  background-color: #FFC9BA;
+  border: none;
+  outline: none;
+  height: 32px;
+  margin-top: 32px;
+  padding: 0px;
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+
+    i {
+      font-size: 12px;
+      margin-left: 4px;
+    }
+  }
+}
+
+.sofa__image {
+  width: 727px;
+  margin-top: 41px;
+}
+
+.brands {
+  width: 1110px;
+  margin-inline: auto;
+  margin-block: 56px;
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #807E7E;
+    margin-bottom: 24px;
+  }
+
+  img {
+    &:nth-child(2) {
+      width: 132.57px;
+      margin-left: 1px;
+      margin-right: 90.6px;
+    }
+
+    &:nth-child(3) {
+      width: 129.42px;
+      margin-right: 90.6px;
+    }
+
+    &:nth-child(4) {
+      width: 80px;
+      margin-right: 90.6px;
+    }
+
+    &:nth-child(5) {
+      width: 99px;
+      margin-right: 90.6px;
+    }
+
+    &:nth-child(6) {
+      width: 96px;
+      
+      margin-right: 90.6px;
+    }
+
+    &:last-child {
+      width: 97.5px;
+    }
+  }
+}
+
+.products {
+  width: 1110px;
+  display: flex;
+  margin-inline: auto;
+  margin-top: 64px;
+  margin-bottom: 80px;
+}
+
+.chair {
+  background-color: #E6F0FF;
+  margin-right: 24px;
+
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+    margin: 40px;
+    height: 60px;
+    width: 201px;
+  }
+
+  img {
+    width: 637px;
+  }
+}
+
+.lamp {
+  background-color: #FAFAFB;
+
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+    margin: 40px;
+    height: 60px;
+    width: 201px;
+  }
+
+  img {
+    width: 449px;
+  }
+}
+
+.featuredproducts {
+  width: 1110px;
+  margin-inline: auto;
+  margin-block: 48px;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #EAEAEA;
+  }
+}
+
+.images__container {
+  margin-top: 24px;
+  display: flex;
+
+  img {
+    width: 316.67px;
+    margin-right: 80px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+.chair__title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #807E7E;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.chair__info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #212121;
+  margin-bottom: 8px;
+}
+
+.chair__price {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #212121;
+
+}
+
+.yellowsofa__container {
+  width: 1110px;
+  margin-inline: auto;
+  margin-block: 80px;
+  display: flex;
+}
+
+.yellowsofa__text {
+  background-color: #FAFAFB;
+  padding-top: 128px;
+  padding-right: 64px;
+  padding-bottom: 211px;
+  padding-left: 97px;
+
+  h4 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: -0.355px;
+    color: #212121;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212121;
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+}
+
+.yellowsofa__button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 32px;
+  padding: 0px;
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+
+    i {
+      font-size: 12px;
+      margin-left: 4px;
+    }
+  }
+}
+
+.yellowsofa__img {
+  background-color: #ECF1F8;
+  width: 662px;
+}
+
+.featuredproducts2 {
+  width: 1110px;
+  margin-inline: auto;
+  margin-block: 56px;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #EAEAEA;
+  }
+}
+
+.furniture__images {
+  display: flex;
+  margin-block: 24px;
+}
+
+.item1 {
+  display: flex;
+  width: 543px;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    border-radius: 6px;
+  }
+}
+
+.item2 {
+  display: flex;
+  width: 543px;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    margin-left: 24px;
+    border-radius: 6px;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    height: 30px;
+    width: 159px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    left: 48px;
+    bottom: 16px;
+  }
+}
+
+.label {
+  font-family: "Montserrat", sans-serif;
+  width: 151px;
+  height: 60px;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #212121;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+
+.plant__images {
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.item3 {
+  display: flex;
+  width: 447px;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    border-radius: 6px;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    height: 30px;
+    width: 151px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    left: 24px;
+    bottom: 16px;
+  }
+}
+
+.item4 {
+  display: flex;
+  width: 639px;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-left: 24px;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    height: 30px;
+    width: 151px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    left: 48px;
+    bottom: 16px;
+  }
+}
+
+.articles {
+  width: 1110px;
+  margin-inline: auto;
+  margin-block: 80px;
+}
+
+.article__header {
+  display: flex;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #212121;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #212121;
+    width: 75px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-block: auto;
+
+    i {
+      font-size: 9px;
+      padding-left: 4px;
+    }
+  }
+
+  padding-bottom: 16px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.article_images_container {
+  margin-top: 24px;
+  display: flex;
+
+  img {
+    width: 259.5px;
+    margin-right: 24px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+.article__title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #807E7E;
+}
+
+.article__info {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #212121;
+
+}
+
+.map {
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.map_container {
+  width: 1110px;
+  margin-block: 72px;
+  margin-inline: auto;
+  display: flex;
+}
+
+.site__info {
+  img {
+    width: 76.22px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #52647C;
+    padding-top: 24px;
+    width: 496px;
+  }
+}
+
+.map__links {
+  margin-left: 118px;
+
+  table {
+    width: 496px;
+  }
+
+  th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #212121;
+    width: 149.33px;
+    padding-bottom: 8px;
+  }
+
+  td {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #807E7E;
+    width: 149.33px;
+    padding-bottom: 8px;
+
+    a {
+      text-decoration: none;
+      color: #807E7E;
+    }
+  }
+}
+
+.socials {
+  width: 1110px;
+  margin-inline: auto;
+  margin-block: 24px;
+  display: flex;
+
+  a {
+    width: 24px;
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #807E7E;
+    margin-right: 0px;
+    margin-left: auto;
+  }
+}
